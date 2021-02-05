@@ -126,7 +126,11 @@ header #logo span {
   border-radius: 0.25rem;
   margin-bottom: 2rem;
   color: var(--secondary-blue);
-  /* box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.1); */
+  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.1);
+}
+
+.negative {
+  background-color: var(--primary-red) important!;
 }
 
 .card h3 {
@@ -149,6 +153,9 @@ header #logo span {
   color: #fff;
 }
 
+.card p#expenseDisplay {
+  color: var(--primary-red);
+}
 /* table */
 #transaction {
   width: 100%;
@@ -184,6 +191,7 @@ table thead th {
 table tbody tr {
   opacity: 0.7;
 }
+
 table tbody tr:hover {
   opacity: 1;
 }
@@ -203,6 +211,10 @@ td.income {
 
 td.expense {
   color: var(--primary-red);
+}
+
+tr img.remove {
+  cursor: pointer;
 }
 
 /* modal */
