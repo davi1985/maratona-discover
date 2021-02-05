@@ -213,7 +213,7 @@ td.expense {
   color: var(--primary-red);
 }
 
-tr img.remove {
+td img.remove {
   cursor: pointer;
 }
 
