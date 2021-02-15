@@ -5,7 +5,7 @@ Marathon HTML, CSS and Javascript
 
 ## About Project
 
-In this project, we built a simple personal finance manager using HTML, CSS and Javascript.
+In this project, we build a simple personal finance manager using HTML, CSS and Javascript.
 
 ## Techs
 
